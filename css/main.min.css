@@ -6198,103 +6198,7 @@ form input:required:valid, form textarea:required:valid {
     .mxd-hero-00__title-wrap {
     width: auto;
 }
-}.mxd-hero-00__marquee {
-    position: absolute;
-    top: 7.6rem;
-    right: 0;
-    width: 100%;
-    background-color: var(--accent);
-    border: 1px solid var(--base);
-    -moz-border-radius: 3.3rem;
-    border-radius: 3.3rem;
-    overflow: hidden;
-}
-.mxd-hero-00__marquee .marquee-flex {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 1rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 1rem;
-    margin: 0;
-    color: var(--t-opp-bright);
-}
-.mxd-hero-00__marquee .marquee__item.item-regular p {
-    font: normal var(--fw-medium) 6rem/1.1 var(--_font-accent);
-    color: var(--t-opp-bright);
-}
-.mxd-hero-00__marquee .marquee__item.item-regular svg {
-    width: 3.7rem;
-    height: 3.7rem;
-    fill: currentColor;
-}
-@media only screen and (min-width:768px) {
-    .mxd-hero-00__marquee {
-    top: 0;
-    width: 484px;
-    height: 88px;
-    -moz-border-radius: 4.4rem;
-    border-radius: 4.4rem;
-}
-.mxd-hero-00__marquee .marquee-flex {
-    gap: 2.6rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular {
-    gap: 2rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular p {
-    font-size: 8rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular svg {
-    width: 5.1rem;
-    height: 5.1rem;
-}
-}@media only screen and (min-width:1200px) {
-    .mxd-hero-00__marquee {
-    width: 719px;
-    height: 132px;
-    -moz-border-radius: 6.6rem;
-    border-radius: 6.6rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular {
-    gap: 2.6rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular p {
-    font-size: 12rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular svg {
-    width: 8.5rem;
-    height: 8.5rem;
-    fill: currentColor;
-}
-}@media only screen and (min-width:1600px) {
-    .mxd-hero-00__marquee {
-    width: 816px;
-    height: 154px;
-    -moz-border-radius: 7.7rem;
-    border-radius: 7.7rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular p {
-    font-size: 14rem;
-}
-.mxd-hero-00__marquee .marquee__item.item-regular svg {
-    width: 9.1rem;
-    height: 9.1rem;
-}
+
 }.hero-00-title {
     position: relative;
     display: -webkit-box;
@@ -14739,28 +14643,8 @@ to {
     width: max-content;
     will-change: transform;
 }
+
 .marquee__item {
-    margin-top: 1.5rem;
-    margin-right: 1.5rem;
-}
-.marquee__item.one-line {
-    margin-top: 0;
-}
-.marquee__item.item-regular-xl {
-    margin-right: 3rem;
-}
-@media only screen and (min-width:768px) {
-    .marquee__item {
-    margin-top: 3rem;
-    margin-right: 3rem;
-}
-.marquee__item.one-line {
-    margin-top: 0;
-}
-.marquee__item.item-regular-xl {
-    margin-right: 6rem;
-}
-}.marquee__item {
     position: relative;
     width: 430px;
     height: 320px;
@@ -14835,32 +14719,7 @@ to {
     width: 380px;
     height: 250px;
 }
-.marquee__item.item-partners::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--base-tint);
-    -moz-border-radius: var(--_radius-m);
-    border-radius: var(--_radius-m);
-    z-index: -1;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: -webkit-transform var(--_animspeed-slow) var(--_animbezier);
-    transition: -webkit-transform var(--_animspeed-slow) var(--_animbezier);
-    -moz-transition: transform var(--_animspeed-slow) var(--_animbezier), -moz-transform var(--_animspeed-slow) var(--_animbezier);
-    transition: transform var(--_animspeed-slow) var(--_animbezier);
-    transition: transform var(--_animspeed-slow) var(--_animbezier), -webkit-transform var(--_animspeed-slow) var(--_animbezier), -moz-transform var(--_animspeed-slow) var(--_animbezier);
-}
-.marquee__item.item-partners img {
-    width: 170px;
-    height: auto;
-}
+
 .marquee__item.item-large {
     width: 830px;
     height: 630px;
