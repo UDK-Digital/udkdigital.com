@@ -4371,26 +4371,8 @@ form input:required:valid, form textarea:required:valid {
     transition: background-size .3s, color .3s;
     transition: background-size .3s, color .3s, -moz-background-size .3s;
 }
-.no-touch .mxd-project-item__name a:hover {
-    color: var(--t-bright);
-    -moz-background-size: 0 1px, 100% 1px;
-    background-size: 0 1px, 100% 1px;
-}
-.mxd-project-item__name a span {
-    font-weight: var(--fw-medium);
-    color: var(--t-bright);
-}
-.mxd-project-item__name.small a {
-    font-size: 2.2rem;
-}
-@media only screen and (min-width:768px) {
-    .mxd-project-item__name a {
-    font-size: 3rem;
-}
-.mxd-project-item__name.small a {
-    font-size: 2.2rem;
-}
-}.mxd-links-lines {
+
+.mxd-links-lines {
     position: relative;
 }
 @media (hover) and (prefers-reduced-motion:no-preference) {
