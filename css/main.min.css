@@ -4371,6 +4371,7 @@ form input:required:valid, form textarea:required:valid {
     transition: background-size .3s, color .3s;
     transition: background-size .3s, color .3s, -moz-background-size .3s;
 }
+
 .mxd-links-lines {
     position: relative;
 }
@@ -14947,7 +14948,47 @@ to {
     gap: 2rem;
     margin-top: 1.8rem;
 }
-
+@media only screen and (min-width:768px) {
+    .mxd-project__paragraph {
+    margin-top: 1.3rem;
+}
+}@media only screen and (min-width:1200px) {
+    .mxd-project__paragraph {
+    margin-top: .4rem;
+    gap: 3rem;
+}
+.mxd-project__paragraph.medium-text {
+    margin-top: .8rem;
+}
+}@media only screen and (min-width:1600px) {
+    .mxd-project__paragraph {
+    max-width: 855px;
+}
+.mxd-project__paragraph.medium-text {
+    margin-top: .6rem;
+}
+}.mxd-project__controls {
+    margin-top: 1.3rem;
+}
+@media only screen and (min-width:1200px) {
+    .mxd-project__controls {
+    margin-top: 1.4rem;
+}
+}@media only screen and (min-width:1600px) {
+    .mxd-project__controls {
+    margin-top: 1.7rem;
+}
+}.mxd-project__client {
+    margin-top: .2rem;
+}
+@media only screen and (min-width:1200px) {
+    .mxd-project__client {
+    margin-top: 0;
+}
+}@media only screen and (min-width:1600px) {
+    .mxd-project__client {
+    margin-top: .2rem;
+}
 }.mxd-project-cards {
     position: relative;
 }
