@@ -22,10 +22,10 @@
     <link rel="manifest" href="../img/favicon/manifest.webmanifest">
 
 
-    <link rel="stylesheet" type="text/css" href="../css/loaders/loader.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/boot.css">
-    <link rel="stylesheet" type="text/css" href="../css/plugins.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/loaders/loader.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href="../css/boot.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href="../css/plugins.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" onload="this.onload=null;this.rel='stylesheet'">
 
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FAF7F6">
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161616">
@@ -642,8 +642,8 @@ we help you grow your audience, boost engagement, and turn visibility into real 
     <!-- To Top Button End -->
 
     <!-- Load Scripts Start -->
-    <script src="../js/libs.min.js"></script>
-    <script src="../js/app.min.js"></script>
+    <script src="../js/libs.min.js" defer></script>
+    <script src="../js/app.min.js" defer></script>
     <script>
       const statsCounter3 = new countUp.CountUp("stats-counter-3", 5, optionsPlus);
       const statsCounter4 = new countUp.CountUp("stats-counter-4", 70, optionsPlus);

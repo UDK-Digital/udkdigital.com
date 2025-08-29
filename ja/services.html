@@ -24,10 +24,10 @@
 
 
     <!-- Template Styles Start -->
-    <link rel="stylesheet" type="text/css" href="../css/loaders/loader.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/boot.css">
-    <link rel="stylesheet" type="text/css" href="../css/plugins.min.css">
-    <link rel="stylesheet" type="text/css" href="../css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/loaders/loader.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href="../css/boot.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href="../css/plugins.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" type="text/css" href="../css/main.min.css" onload="this.onload=null;this.rel='stylesheet'">
     <!-- Template Styles End -->
 
     <!-- Custom Browser Color Start -->
@@ -646,8 +646,8 @@
     <!-- To Top Button End -->
 
     <!-- Load Scripts Start -->
-    <script src="../js/libs.min.js"></script>
-    <script src="../js/app.min.js"></script>
+    <script src="../js/libs.min.js" defer></script>
+    <script src="../js/app.min.js" defer></script>
     <script>
       const statsCounter3 = new countUp.CountUp("stats-counter-3", 5, optionsPlus);
       const statsCounter4 = new countUp.CountUp("stats-counter-4", 70, optionsPlus);
