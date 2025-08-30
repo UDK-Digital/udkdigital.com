@@ -58,19 +58,4 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Assets (gerekirse hariç tutulabilir, genelde sitemap’e dahil edilmez) -->
-  <url>
-    <loc>https://udkdigital.com/img/backgrounds/1440x900_cta-01.webp</loc>
-    <lastmod>2025-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://udkdigital.com/css/%20/fonts.googleapis.com/css2?family=Funnel+Sans</loc>
-    <lastmod>2025-08-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-
 </urlset>
