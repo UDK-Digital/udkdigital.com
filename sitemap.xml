@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Root -->
+  <url>
+    <loc>https://udkdigital.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udkdigital.com/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://udkdigital.com/tr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://udkdigital.com/ja/index.html"/>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://udkdigital.com/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udkdigital.com/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://udkdigital.com/tr/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://udkdigital.com/ja/services.html"/>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://udkdigital.com/en/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udkdigital.com/en/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://udkdigital.com/tr/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://udkdigital.com/ja/contact.html"/>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Team -->
+  <url>
+    <loc>https://udkdigital.com/en/team.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udkdigital.com/en/team.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://udkdigital.com/tr/team.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://udkdigital.com/ja/team.html"/>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://udkdigital.com/policies/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://udkdigital.com/policies/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://udkdigital.com/policies/tr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://udkdigital.com/policies/ja/privacy.html"/>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Assets (gerekirse hariç tutulabilir, genelde sitemap’e dahil edilmez) -->
+  <url>
+    <loc>https://udkdigital.com/img/backgrounds/1440x900_cta-01.webp</loc>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://udkdigital.com/css/%20/fonts.googleapis.com/css2?family=Funnel+Sans</loc>
+    <lastmod>2025-08-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
