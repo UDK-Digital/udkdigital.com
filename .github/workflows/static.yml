@@ -1,49 +1,24 @@
-name: Deploy static content to Pages
+name: Deploy to GCP VM (Static Site)
 
 on:
   push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+    branches: [ "main" ]
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Add file hashing for cache-busting
-        run: |
-          for f in ./assets/*.js ./assets/*.css; do
-            if [ -f "$f" ]; then
-              hash=$(md5sum "$f" | cut -d ' ' -f1)
-              ext="${f##*.}"
-              base="${f%.*}"
-              new="${base}.${hash}.${ext}"
-              mv "$f" "$new"
-            fi
-          done
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+    - name: Deploy via SSH
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.GCP_VM_IP }}
+        username: ${{ secrets.GCP_VM_USER }}
+        key: ${{ secrets.GCP_VM_SSH_KEY }}
+        script: |
+          cd /var/www/html
+          git pull origin main
+          sudo systemctl reload apache2
